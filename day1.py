@@ -1,8 +1,8 @@
 def method1():
     file1 = open("input files/day1.txt")
-    Lines = file1.readlines()
+    lines = file1.readlines()
     ints = []
-    for line in Lines:
+    for line in lines:
         line.strip()
         ints += [int(line)]
     count = 0
@@ -15,10 +15,10 @@ def method1():
 
 
 def method2():
-    file2 = open("input files/day1txt")
-    Lines = file2.readlines()
+    file2 = open("input files/day1.txt")
+    lines = file2.readlines()
     ints = []
-    for line in Lines:
+    for line in lines:
         line.strip()
         ints += [int(line)]
     count = 0
