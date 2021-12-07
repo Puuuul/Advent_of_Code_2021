@@ -11,7 +11,6 @@ def method1():
     for x in range(256):
         fishcount.rotate(-1)
         fishcount[6] += fishcount[8]
-        print(fishcount)
     print(sum(fishcount))
 
 
