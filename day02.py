@@ -1,5 +1,5 @@
 def method1():
-    file1 = open("input files/day2.txt")
+    file1 = open("input files/day02.txt")
     lines = file1.readlines()
     arr = [[], []]
     for line in lines:
@@ -21,7 +21,7 @@ def method1():
 
 
 def method2():
-    file2 = open("input files/day2.txt")
+    file2 = open("input files/day02.txt")
     lines = file2.readlines()
     arr = [[], []]
     for line in lines:

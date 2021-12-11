@@ -15,7 +15,7 @@ def count(lines, i):
 
 
 def method1():
-    file1 = open("input files/day3.txt")
+    file1 = open("input files/day03.txt")
     lines = file1.readlines()
     for x in range(len(lines)):
         lines[x] = lines[x].strip()
@@ -59,7 +59,7 @@ def co2(lines, i):
 
 
 def method2():
-    file1 = open("input files/day3.txt")
+    file1 = open("input files/day03.txt")
     lines = file1.readlines()
     for x in range(len(lines)):
         lines[x] = lines[x].strip()

@@ -56,7 +56,7 @@ def makeline2(grid, start, end):
 
 
 def method1():
-    file1 = open("input files/day5.txt")
+    file1 = open("input files/day05.txt")
     lines = file1.readlines()
     start = [[0 for c in range(2)] for r in range(len(lines))]
     end = [[0 for c in range(2)] for r in range(len(lines))]

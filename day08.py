@@ -1,5 +1,5 @@
 def method1():
-    file1 = open("input files/day8.txt")
+    file1 = open("input files/day08.txt")
     lines = file1.readlines()
     count = 0
     a = [2, 3, 4, 7]
@@ -85,7 +85,7 @@ def decypher(arr):
 
 
 def method2():
-    file1 = open("input files/day8.txt")
+    file1 = open("input files/day08.txt")
     lines = file1.readlines()
     final = 0
     for line in lines:

@@ -1,5 +1,5 @@
 import sys
-file1 = open("input files/day7.txt")
+file1 = open("input files/day07.txt")
 s = file1.readline()
 numbers = s.split(",")
 for i in range(len(numbers)):

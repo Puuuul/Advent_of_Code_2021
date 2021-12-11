@@ -2,7 +2,7 @@ from collections import deque
 
 
 def method1():
-    file1 = open("input files/day6.txt")
+    file1 = open("input files/day06.txt")
     s = file1.readline()
     arr = s.split(",")
     fishcount = deque([0 for i in range(9)])

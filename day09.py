@@ -1,5 +1,5 @@
 def method1():
-    file1 = open("input files/day9.txt")
+    file1 = open("input files/day09.txt")
     lines = file1.readlines()
     for x in range(len(lines)):
         lines[x] = lines[x].strip()
@@ -44,7 +44,7 @@ def discover(x, y, grid, count):
 
 
 def method2():
-    file1 = open("input files/day9.txt")
+    file1 = open("input files/day09.txt")
     lines = file1.readlines()
     grid = [[0 for i in range(len(lines[0])-1)] for j in range(len(lines))]
     for x in range(len(lines)):

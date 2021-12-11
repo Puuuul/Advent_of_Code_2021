@@ -16,7 +16,7 @@ def checkwon(board):
 
 
 def method1():
-    file1 = open("input files/day4.txt")
+    file1 = open("input files/day04.txt")
     lines = file1.readlines()
     numbers = []
     boards = [[[0 for k in range(5)] for j in range(5)] for i in range(int((len(lines)-1)/6))]
